@@ -24,12 +24,6 @@ function populateTable(dataInput){
 console.log(tableData);
 populateTable(tableData);
 
-// clear the table for new data
-function clearTbody() {
-    d3.select("tbody")
-      .selectAll("tr").remove()
-      .selectAll("td").remove();
-  };
 
 
 // Create event handlers x
@@ -40,7 +34,7 @@ function filterDate() {
     d3.event.preventDefault();
 
     //Clear the table
-    clearTbody();
+    tbody.html("");
 
     // Get the value property of the input element
     var inputValue = dateField.property("value");

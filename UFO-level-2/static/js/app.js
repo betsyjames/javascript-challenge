@@ -24,13 +24,6 @@ console.log(tableData);
 populateTable(tableData);
 
 
-// clear the table for new data
-function clearTbody() {
-    d3.select("tbody")
-      .selectAll("tr").remove()
-      .selectAll("td").remove();
-  };
-
 // Create event handlers x
 button.on("click", filterDate);
 
@@ -39,7 +32,7 @@ function filterDate() {
     d3.event.preventDefault();
 
     //Clear the table
-    clearTbody();
+    tbody.html("");
 
     var filteredData = tableData;
     //Get all the input fields
