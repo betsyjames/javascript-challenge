@@ -7,7 +7,6 @@ Build a web application that will create a table dynamically based upon a datase
 ## Repo Contains
 
 1. UFO-level-1 folder which contains:
-
 * index.html
 * static folder - contains 3 sub-folders
    * css - which contains the style sheet
@@ -15,14 +14,13 @@ Build a web application that will create a table dynamically based upon a datase
    * js - folder that contains the app.js which has the JavaScript Code and data.js which has the table data
 
 2. UFO-level-2 folder which contains:
-
 * index.html
 * static folder - contains 3 sub-folders
    * css - which contains the style sheet
    * images - image displayed on the webpage
    * js - folder that contains the app.js which has the JavaScript Code and data.js which has the table data
 
-##Instructions
+## Instructions
 
 ### Level 1: Automatic Table and Date Search 
 
